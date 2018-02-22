@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import Button from 'antd/lib/button';
 
 class Homepage extends Component {
   render() {
     return (
-      <div>
-        <button>Hello wolrd</button>
-      </div>
+      <Fragment>
+        <Button type="primary">Button</Button>
+      </Fragment>
     );
   }
 }

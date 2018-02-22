@@ -2,6 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'react-router-redux';
+import './globalStyles.css';
 import store, { history } from '../src/store';
 import App from '../src/containers/App';
 import registerServiceWorker from './registerServiceWorker';
