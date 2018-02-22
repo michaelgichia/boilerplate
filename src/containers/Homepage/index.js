@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Button from 'antd/lib/button';
+import { Button } from 'antd';
 
 class Homepage extends Component {
   render() {

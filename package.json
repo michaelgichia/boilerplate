@@ -27,10 +27,15 @@
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
+    "build": "react-app-rewired build",
+    "eject": "react-scripts eject",
     "precommit": "lint-staged",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "test": "react-app-rewired test --env=jsdom"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.6.5",
+    "react-app-rewire-less": "^2.1.0",
+    "react-app-rewired": "^1.4.1"
   }
 }
